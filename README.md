@@ -43,7 +43,7 @@ This sub-dataset translates the raw weather variables into actual renewable powe
 
 ---
 
-## Usage Guidelines for Engineers
+## 3. Usage Guidelines for Engineers
 The power metrics (`P_WIND` and `P_PV`) are deliberately maintained on a **1.0 per-unit (p.u.)** scale. This makes the data incredibly flexible for any engineering project. Researchers can directly multiply these normalized columns by the rated Megawatt (MW) capacity of their chosen commercial wind turbine or solar PV module. 
 
 This provides a straightforward baseline to project actual electricity yields for offshore capacity planning (Siting and Sizing) without building complex physical or thermal models from scratch.
