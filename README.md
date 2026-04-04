@@ -17,17 +17,18 @@ This sub-dataset provides the fundamental environmental metrics recorded sequent
 ### Data Dictionary
 | Variable | Unit | Description |
 | :--- | :--- | :--- |
-| **SITE** | - | A textual identifier assigned to each location (S1 to S16). Users can easily select one specific site to study without typing long coordinate numbers. |
-| **LON** | °E | The longitude position of the site measured in decimal degrees East. |
-| **LAT** | °N | The latitude position of the site measured in decimal degrees North. |
+| **SITE** | - | A textual identifier assigned to each location (S1 to S16). Users can easily select one specific site without using coordinates. |
+| **LON** | °E | Longitude in decimal degrees East. |
+| **LAT** | °N | Latitude in decimal degrees North. |
 | **YEAR** | - | Calendar year (2016–2025). |
-| **SE** | - | Weather season indicator (1=Spring, 2=Summer, 3=Autumn, 4=Winter). |
-| **MO / DY** | - | Calendar month (1–12) and specific day of the month (accounting for leap years). |
-| **HR** | h | Exact hour of the day in a standard 24-hour UTC format (0–23). |
-| **WS10M** | m/s | Wind speed measured at a standard height of 10 meters above the sea surface. |
-| **WD10M** | ° | Direction from which the wind is blowing (0°–360°), crucial for avoiding energy losses caused by turbines blocking each other. |
-| **SDI** | W/m² | Direct sunlight reaching the ocean surface. This gives the basic energy input needed for solar generation calculations. |
-| **T2M** | °C | Air temperature at a height of 2 meters. Critical for calculating extreme heat loss affecting solar panel efficiency. |
+| **SE** | - | Season indicator (1=Spring, 2=Summer, 3=Autumn, 4=Winter). |
+| **MO** | - | Calendar month (1–12). |
+| **DY** | - | Day of the month (accounts for leap years). |
+| **HR** | h | Hour of the day in 24-hour UTC format (0–23). |
+| **WS10M** | m/s | Wind speed at 10 meters above sea surface. |
+| **WD10M** | ° | Wind direction (0°–360°), used for wake effect analysis. |
+| **SDI** | W/m² | Direct solar irradiance at the surface. |
+| **T2M** | °C | Air temperature at 2 meters height. |
 
 ---
 
