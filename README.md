@@ -27,7 +27,7 @@ This sub-dataset provides the fundamental environmental metrics recorded sequent
 | **HR** | h | Hour of the day in 24-hour UTC format (0–23). |
 | **WS10M** | m/s | Wind speed at 10 meters above sea surface. |
 | **WD10M** | ° | Wind direction (0°–360°), used for wake effect analysis. |
-| **SDI** | W/m² | Direct solar irradiance at the surface. |
+| **SI** | W/m² | solar irradiance at the surface. |
 | **T2M** | °C | Air temperature at 2 meters height. |
 
 ---
